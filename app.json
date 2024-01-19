@@ -29,6 +29,14 @@
       },
       "package": "com.raider.myapp"
     },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "raider"
+        }
+      ]
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
     },
