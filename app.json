@@ -15,16 +15,30 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.raider.my-app",
+      "runtimeVersion": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "runtimeVersion": {
+        "policy": "appVersion"
+      },
+      "package": "com.raider.myapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "42b3cded-8bdb-4f22-afee-1d81e543e94e"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/42b3cded-8bdb-4f22-afee-1d81e543e94e"
     }
   }
 }
